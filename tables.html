@@ -4,22 +4,47 @@
         <title>Page of Tables</title>
     </head>
     <body>
+        <h2>Bordeless table</h2>
         <table><!--start table-->
-            <tr><!--start line-->
-                <th>Title collumn 1</th><!--text of title-->
-                <th>Title collumn 2</th>
-            </tr><!--end line-->
-            <td><!--start firt cell-->
-                <center>
-                    First cell
-                </center>
-            </td>
-            <td><!--start second cell-->
-                <center>
-                    Second Cell
-                </center>
-            </td>
+            <thead><!--Optional tag to indicate header-->
+                <tr><!--start line-->
+                    <th>Title collumn 1</th><!--text of title-->
+                    <th>Title collumn 2</th>
+                </tr><!--end line-->
+            </thead>
+            <tbody><!--Optional tag to indicate body-->
+                <td><!--start firt cell-->
+                    <center>
+                        First cell
+                    </center>
+                </td>
+                <td><!--start second cell-->
+                    <center>
+                        Second cell
+                    </center>
+                </td>
+            </tbody>
+        </table>
+        <h2>Table with edges</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Title collumn 1</th>
+                    <th>Title collumn 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>
+                    <center>
+                        First cell
+                    </center>
+                </td>
+                <td>
+                    <center>
+                        Second cell
+                    </center>
+                </td>
+            </tbody>
         </table>
     </body>
-
 </html>
