@@ -1,0 +1,9 @@
+header, section, footer, nav, main, article, figure {
+    display: block;
+}
+flag{
+    display: block;
+    background-color: blue;
+    padding: 50px;
+    font-size: 30px;
+}
